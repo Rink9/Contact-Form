@@ -1,0 +1,64 @@
+body {
+    font-family : "dosis";
+    background : #FFFBEB;
+}
+.card {
+    background: white;
+    margin : 80px;
+    padding: 12px 38px 64px 38px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 6px 14px 3px rgba(156, 163, 175, 0.77);
+    box-shadow: 1px 6px 14px 3px rgba(156, 163, 175, 0.77);
+}
+.form {
+display: flex;
+flex-direction: column;
+}
+.title {
+    text-align: center;
+    color: #374151;
+}
+
+.form input {
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: 1px solid #FDE68A;
+    font-size:17px;
+    font-family : "dosis";
+    outline:none;
+}
+
+.form input:focus{
+    border: 1px solid #FBBF24; 
+}
+
+.form textarea {
+    padding: 9px 18px;
+    border-radius: 8px;
+    font-family : "dosis";
+    border: 1px solid #FDE68A;
+    outline:none;
+    
+}
+
+.form textarea:focus{
+    border: 1px solid #FBBF24; 
+}
+
+.form button {
+background: #FCD34D;
+padding: 12px 20px;
+border-radius: 8px;
+border: none;
+font-size: 16px;
+font-weight: bold;
+color: white;
+font-family : "dosis";
+text-transform: uppercase;
+-webkit-box-shadow: 1px 3px 4px 1px rgba(156, 163, 175, 0.69);
+box-shadow: 1px 3px 4px 1px rgba(156, 163, 175, 0.69);
+}
+
+.form button:hover {
+background: #FBBF24;
+}
