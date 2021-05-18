@@ -74,7 +74,7 @@
 
     <script>
         function submitMessege(){
-            let inputs = document.getElementsByTagName("input");
+            let inputs = document.getElementsByClassName("form-field");
 
             for(let i = 0; i < inputs.length; i++) {
                 let value = inputs[i].value;
@@ -113,15 +113,15 @@
     <div class= "card">
         <h1 class="title">Got A Question?</h1>
     <div class= "form"> 
-        <input name= "first name "type="text" placeholder="First Name"/>
+        <input name= "first name "type="text" placeholder="First Name" class="form-field"/>
         <br>
-        <input name= "last name "type="text" placeholder="Last Name"/>
+        <input name= "last name "type="text" placeholder="Last Name" class="form-field"/>
         <br>
-        <input name= "contact number "type="number" placeholder="Contact Number"/>
+        <input name= "contact number "type="number" placeholder="Contact Number" class="form-field"/>
         <br>
-        <input name= "email"type="email" placeholder="Email"/>
+        <input name= "email"type="email" placeholder="Email" class="form-field"/>
         <br>
-        <textarea name="messege" placeholder="Messege" id="messege" cols="17" rows="4"></textarea>
+        <textarea name="messege" placeholder="Messege" class="form-field" id="messege" cols="17" rows="4"></textarea>
         <br>
         <button 
         onclick="submitMessege()" 
