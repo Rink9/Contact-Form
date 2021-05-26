@@ -16,8 +16,7 @@ function submitMessege(){
     }
     else {
      alert ("Missing : " + errorMessege); 
-    }
-      
+    }      
 
 } 
 
@@ -33,10 +32,6 @@ function formSubmitted(){
     let body = document.getElementsByTagName("body");
     body[0].style.backgroundColor = "#D1FAE5";
 
-
-
-    // let formCard = document.getElementsByClassName("card");
-    // formCard[0].style.backgroundColor = "#D1FAE5";
 }
 
 
